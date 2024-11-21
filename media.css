@@ -30,7 +30,7 @@
     .header{
         padding: 2rem;
     }
-    .header .navbara{
+    .header .navbar{
         position: absolute;
         top: 99%;
         left: 0;
@@ -38,10 +38,10 @@
         background: #000;
         clip-path: polygon(0 0,100% 0,100% 0, 0 0);
     }
-    .header .navbara.active{
+    .header .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)
     }
-    .header .navbara a{
+    .header .navbar a{
         display: block;
         font-size: 2rem;
     }

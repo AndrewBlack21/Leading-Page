@@ -2,17 +2,16 @@ let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
 
 menu.onclick = () =>{
-    menu.classList.toggle('fa-time');
+    menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 };
-windows.onscroll = () =>{
-    menu.classList.remove('fa-times')
-    navbar.classList.remove('avtive')
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
 };
-
 //slide
 
-var slide = new slide(".home, .carousel-inner",{
+var slide = new slide(".home-slide",{
     spaceBetween: 20,
     effect: "fade",
     grabCursos: true,
@@ -27,7 +26,7 @@ var slide = new slide(".home, .carousel-inner",{
     },
 });
 
-var slide = new slide(".review, .carousel-inner",{
+var slide = new slide(".review-slide",{
     spaceBetween: 20,
     grabCursos: true,
     loop:true,
@@ -45,7 +44,7 @@ var slide = new slide(".review, .carousel-inner",{
     },
 });
 
-var swiper = new Swiper(".blog, .carousel-inner", {
+var swiper = new Swiper(".blogs-slider", {
     spaceBetween: 20,
     grabCursor: true,
     loop:true,

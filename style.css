@@ -109,7 +109,7 @@ section{
     color: rgb(5, 238, 21);
 }
 
-.header .navbara a{
+.header .navbar a{
     display: inline-block;
     padding: 1.5rem 2rem;
     font-size: 1.7rem;
@@ -117,7 +117,7 @@ section{
     text-decoration: none;
 }
 
-.header .navbara a:hover{
+.header .navbar a:hover{
     background: rgb(5, 238, 21);
 }
 

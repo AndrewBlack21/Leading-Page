@@ -1,0 +1,66 @@
+@media(max-width: 991px){
+    html{
+        font-size: 55%;
+        scroll-padding: 7rem;
+    }
+    .header{
+        padding: 0 2rem;
+    }
+    section{
+        padding: 3rem 2rem;
+    }
+    .home .carousel-inner{
+        padding: 2rem 5%;
+    }
+    .home .carousel-inner .content{
+        width: 50rem;
+    }
+    .home .carousel-inner .content h3{
+        font-size: 4rem;
+    }
+}
+
+@media(max-width: 768px){
+    #menu-btn{
+        display: inline-block;
+    }
+    #menu-btn.fa-times{
+        transform: rotate(180deg);
+    }
+    .header{
+        padding: 2rem;
+    }
+    .header .navbara{
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #000;
+        clip-path: polygon(0 0,100% 0,100% 0, 0 0);
+    }
+    .header .navbara.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)
+    }
+    .header .navbara a{
+        display: block;
+        font-size: 2rem;
+    }
+    .sobre{
+        gap: 3rem;
+    }
+    .sobre .image{
+        margin-top: 5rem;
+    }
+    .sobre .content .title{
+        font-size: 3rem;
+    }
+    .servico .box-container .box.second{
+        flex-flow: column;
+    }
+}
+
+@media(max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+}

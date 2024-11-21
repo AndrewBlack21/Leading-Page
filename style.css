@@ -458,7 +458,7 @@ section{
     text-decoration: none;
 }
 
-.treinadores .box-container .box .content share a:hover{
+.treinadores .box-container .box .content .share a:hover{
     color: rgb(5, 238, 21);
 }
 
@@ -466,7 +466,7 @@ section{
 
 .banner {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    url(/img/FITNESS\ CENTER\ _\ GYM.jpeg) no-repeat;
+    url(img/FITNESS\ CENTER\ _\ GYM.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -681,11 +681,11 @@ section{
     text-align: center;
     text-decoration: none;
 }
-footer .box-container .box .share a:hover{
+.footer .box-container .box .share a:hover{
     background: rgb(5, 238, 21);
 }
 
-footer .box-container .box form .email{
+.footer .box-container .box form .email{
     margin-bottom: 1rem;
     width: 100%;
     background: #111;
